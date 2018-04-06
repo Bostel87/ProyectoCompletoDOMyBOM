@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/estilos.css">
+<script type="text/javascript" src="js/javascript.js"></script>
+    <meta charset="utf-8">
+    <title>Conversor de Temperatura</title>
+  </head>
+  <body>
+    <div id="cabecera">
+      <b>Conversor de Temperatura</b>
+    </div>
+  <div id="contenedor">
+  <select id="opciones">
+    <option value="0">Elija una Opcion</option>
+    <option value="1">Celcius a Kelvin</option>
+    <option value="2">Celcius a Fahrenheit</option>
+    <option value="3">Fahrenheit a Celcius</option>
+    <option value="4">Fahrenheit a Kelvin</option>
+    <option value="5">Kelvin a Celcius</option>
+    <option value="6">Kelvin a Fahrenheit</option>
+  </select>
+  <br>
+  <br>
+  <br>
+  <b>Grados a Convertir: </b>
+  <br>
+  <input type="text" id="numero1">
+  <br>
+  <br>
+  <br>
+  <b>Resultado: </b>
+  <br>
+  <input type="text" id="resultado" >
+  <br>
+  <br>
+  <button id="convertir" onclick="convertir()">Convertir</button>
+  </div>
+  </body>
+</html>
